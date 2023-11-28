@@ -11,4 +11,10 @@ public class Assignment extends Element {
     private String expression;
     private String type; // int, double, String, boolean, char
 
+    public Assignment(String variableName, String expression) {
+        this.variableName = variableName;
+        this.expression = expression;
+        // Set the type or any other necessary fields
+    }
+
 }

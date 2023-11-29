@@ -1,6 +1,6 @@
 <template>
   <div class="assignment-block">
-    {{ element.variableName }} = {{ element.expression }}
+   {{element.type}} {{ element.variableName }} = {{ element.expression }}
   </div>
 </template>
 

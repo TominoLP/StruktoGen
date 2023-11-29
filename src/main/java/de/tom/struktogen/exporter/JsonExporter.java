@@ -1,11 +1,10 @@
-package de.tom.struktogen;
+package de.tom.struktogen.exporter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import de.tom.struktogen.model.Structogram;
 
-import java.awt.*;
 
-public class JsonParser {
+public class JsonExporter {
 
     public String getJsonOfStructogram(Structogram structogram) {
         if (structogram == null) {
